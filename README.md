@@ -1,31 +1,20 @@
-# Automação em Python com PyAutoGUI e Pandas
+# Projeto: Python Insights - Análise de Cancelamento de Clientes
 
 ## Descrição do Projeto
 
-Nesta aplicação, desenvolvi uma automação utilizando Python, PyAutoGUI e Pandas para cadastrar produtos diretamente a partir de um arquivo CSV que contém os dados de cada produto.
+Esta aplicação Python realiza uma automação eficiente para cadastrar produtos diretamente a partir de um arquivo CSV contendo os dados de cada item. A combinação das bibliotecas PyAutoGUI e Pandas proporciona uma solução prática e eficaz para esse processo.
 
-## Código Exemplo
+## Estrutura do Projeto
 
-A seguir, um trecho do código em Python que ilustra a lógica utilizada na automação:
+- `produtos.csv`: Arquivo contendo os dados.
 
-```python
-# Importando bibliotecas necessárias
-import pandas as pd
-import pyautogui
-import time
+## Como Executar
 
-# Carregando dados do arquivo CSV
-dados_produtos = pd.read_csv("arquivo_produtos.csv")
+1. Instale as dependências necessárias com `pip install -r requirements.txt`.
 
-# Iterando sobre os dados para realizar a automação
-for index, produto in dados_produtos.iterrows():
-    # Simulando cliques e preenchimento de campos com PyAutoGUI
-    pyautogui.click(100, 200)  # Exemplo de coordenadas, ajuste conforme necessário
-    pyautogui.write(produto["Nome"])
-    pyautogui.write(produto["Preço"])
-    pyautogui.click(200, 300)  # Exemplo de coordenadas, ajuste conforme necessário
-    
-    # Aguardando um breve momento antes de cada ação
-    time.sleep(1)
+### Resultados
+Consegui cadastrar todos os produtos automaticamente.
 
-# Fim do exemplo
+## Publicação no LinkedIn
+
+[Veja minha publicação sobre o desafio no LinkedIn]([https://www.linkedin.com/posts/alex-cavalcanti-198979216_dataanalysis-python-projects-activity-7150848775454875649-SXDD?utm_source=share&utm_medium=member_desktop]
