@@ -17,4 +17,4 @@ Consegui cadastrar todos os produtos automaticamente.
 
 ## Publicação no LinkedIn
 
-[Veja minha publicação sobre o desafio no LinkedIn](https://www.linkedin.com/posts/alex-cavalcanti-198979216_python-data-automaaexaeto-activity-7150456203045773312-10rO?utm_source=share&utm_medium=member_desktop)
+[Veja minha publicação sobre o projeto no LinkedIn](https://www.linkedin.com/posts/alex-cavalcanti-198979216_python-data-automaaexaeto-activity-7150456203045773312-10rO?utm_source=share&utm_medium=member_desktop)
